@@ -29,8 +29,8 @@ main {
 
 
 .textbox{
-	max-width: 1000px;
-	padding: 70px 0 0 800px;
+	width: 100%;
+	padding: 70px 0 0 675px;
 	/*margin: 0 auto;*/
 }
 
@@ -92,7 +92,9 @@ button:hover {
 	background-position: 50% 50%;
 	height: 67px;
 	width: 76px;
-	
+	position: fixed;
+    bottom: 0px;
+    left: 0px; 
 }
 
 .show-navbar .navToggle{
@@ -133,3 +135,24 @@ button:hover {
 }
 
 
+
+@media (min-width:400px) and (max-width:799px){
+	.textbox{
+		padding-left: 300px;
+		width: 100%;
+	}
+}
+
+@media (min-width:800px) and (max-width:1199px){
+	.textbox{
+		padding-left: 400px;
+		width: 33%;
+	}
+}
+
+@media (min-width:1200px){
+	.textbox{
+		padding-left:675px;
+		width: 25%;
+	}
+}

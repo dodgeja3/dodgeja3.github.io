@@ -104,34 +104,6 @@ button:hover {
 
 
 
-
-
-
-/*-----------Portfolio section---------------*/
-.portfolioButton {
-	padding: 70px 0 0 850px;
-}
-
-.portfolioToggle {
-	background-image: url("http://i.imgur.com/6JL60CY.png");
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	height: 75px;
-	width: 200px;
-}
-
-.sites {
-	padding-left: 440px;
-	width: 50%;
-	height: 50%;
-	display: flex;
-}
-
-.show-portfolio .sites{
-	visibility: hidden;
-}
-
-
-.resume ul li{
-	display: inline;
+.medialinks {
+	padding-left:300px;
 }

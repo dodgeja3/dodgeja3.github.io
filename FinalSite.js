@@ -11,8 +11,13 @@ document.getElementById("gitHubButton").onclick = function () {
 };
 
 document.getElementById("contactButton").onclick = function () {
-    location.href = "http://i.imgur.com/lWdGVRk.png";
+    location.href = "http://dodgeja3.github.io/ContactPage.html";
 };
+
+document.getElementById("socialMediaButton").onclick = function () {
+    location.href = "http://dodgeja3.github.io/SocialMediaPage.html";
+};
+
 
 
 $('.navToggle').on('click', function() {

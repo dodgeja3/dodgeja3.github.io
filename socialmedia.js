@@ -22,3 +22,7 @@ document.getElementById("socialMediaButton").onclick = function () {
 $('.navToggle').on('click', function() {
 	 $('div').toggleClass('show-navbar');
 });
+
+$('.portfolioToggle').on('click', function() {
+	 $('div').toggleClass('show-portfolio');
+});
