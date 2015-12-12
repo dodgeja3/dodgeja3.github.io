@@ -28,51 +28,84 @@
 				</div>
 
 
+
+				<div class="portfolioButton">
+					<button class="portfolioToggle">Portfolio</button>
+				</div>
+
+				<div class="sites">
+					<a href="https://dash.generalassemb.ly/projects/build-your-own-personal-website"><img src="http://i.imgur.com/50OmvJ3.png">Personal</a>
+
+					<a href="https://dash.generalassemb.ly/projects/cotbots-4"><img src="http://i.imgur.com/q3eqM2y.png">Bot</a>
+
+					<a href="https://dash.generalassemb.ly/projects/madlins-5"><img src="http://i.imgur.com/zZLrOjF.png">Madlib</a>
+				</div>
+
+
 			</main>
 			
-			<nav id="nav">
-				<div class="profile">
-					<h2>James Dodge</h2>
-					<img src="http://i.imgur.com/lWdGVRk.png" width="65%" height="65%">
-				</div>
-						
-				<div class="navbar">
-					<ul>
-						<li>
-							<button id="homeButton">Home</button>
-						</li>
+			<div class="sidebar">
+				<nav id="nav">
+					
+						<div class="profile">
+							<h2>James Dodge</h2>
+							<img src="http://i.imgur.com/lWdGVRk.png" width="65%" height="65%">
+						</div>
+								
+						<div class="navbar">
+							<ul>
+								<li>
+									<button id="homeButton" class='navbutton'>Home</button>
+								</li>
 
-						<li>
-							<button id="resumeButton">Resume</button>
-						</li>
+								<li>
+									<button id="resumeButton" class='navbutton'>Resume</button>
+								</li>
 
-						<li>
-							<button id="gitHubButton">GitHub</button>
-						</li>
+								<li>
+									<button id="gitHubButton" class='navbutton'>GitHub</button>
+								</li>
 
-						<li>
-							<button id="contactButton">Contact</button>
-						</li>
-					</ul>
-				</div>
-			</nav>
+								<li>
+									<button id="contactButton" class='navbutton'>Contact</button>
+								</li>
+							</ul>
+						</div>
+
+
+			</div>
+
+				<button class="navToggle"></button>
 			
 		</div>
 
 		<script>
 			document.getElementById("homeButton").onclick = function () {
-		        location.href = "http://i.imgur.com/lWdGVRk.png";
+		        location.href = "http://dodgeja3.github.io/FInalSite.html";
 		    };
 		    document.getElementById("resumeButton").onclick = function () {
-		        location.href = "http://i.imgur.com/lWdGVRk.png";
+		        location.href = "http://dodgeja3.github.io/ResumePage.html";
 		    };
 		    document.getElementById("gitHubButton").onclick = function () {
-		        location.href = "http://i.imgur.com/lWdGVRk.png";
+		        location.href = "https://github.com/dodgeja3";
 		    };
 		    document.getElementById("contactButton").onclick = function () {
 		        location.href = "http://i.imgur.com/lWdGVRk.png";
 		    };
 
+
+			$('.navToggle').on('click', function() {
+     			 $('div').toggleClass('show-navbar');
+  			});
+
+  			$('.portfolioToggle').on('click', function() {
+     			 $('div').toggleClass('show-portfolio');
+  			});
+
+
+  			// function disappear(){
+  			// 	document.getElementById("")
+  			// }
 		</script>
 
 	</body>

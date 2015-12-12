@@ -77,16 +77,13 @@ button:hover {
 	width: 200px;
 }
 
-
-
-
 .show-navbar .sidebar{
 	position: absolute;
 	left: -1000px;
 }
 
 .navToggle {
-	/*padding-left: 370px;*/
+
 	background-image: url("http://i.imgur.com/eEpL8TU.png");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -133,3 +130,6 @@ button:hover {
 }
 
 
+.resume ul li{
+	display: inline;
+}
